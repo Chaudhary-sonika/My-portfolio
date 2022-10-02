@@ -88,6 +88,9 @@ color: white
 .hero .hero-heading .heading-highlight{
     color: var(--primary-color);
 }
+.write-img{
+    display: block;
+}
 /* Section */
 .section{
     padding: 2rem;
