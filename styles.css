@@ -28,10 +28,18 @@ margin-bottom: 1rem;
 border-radius: 0.5rem;
 color: white
 }
+.link-primary:hover{
+    background-color: black;
+    color: white; 
+}
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+.link-secondary:hover{
+    background-color: black;
+    color: white;
 }
 /* Lists */
 .list-non-bullet {
@@ -53,6 +61,9 @@ color: white
 }
 .navigation .nav-pills{
     text-align: right;
+}
+.navigation .link:hover{
+    color: black;
 }
 .navigation .link{
     color: white;
