@@ -101,3 +101,6 @@ color: white
 .footer ul{
     padding-inline-start: 0px;
 }
+.fa:hover{
+    color: black;
+}
