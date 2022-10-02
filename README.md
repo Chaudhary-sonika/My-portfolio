@@ -13,5 +13,5 @@ It has all the details of me and my work.
 1. CSS
 # Build With:-
 HTML and CSS
-#Acknowledgements:-
+# Acknowledgements:-
 NeoG Camp Tutorials by Tanay Pratap
