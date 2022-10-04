@@ -116,7 +116,7 @@ text-decoration: none;
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color:black;
     border-top-right-radius: 1rem;
 }
 .footer .link {
@@ -127,4 +127,7 @@ text-decoration: none;
 }
 .fa:hover{
     color: black;
+}
+.footer-header{
+    /* display:block; */
 }
