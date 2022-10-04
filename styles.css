@@ -21,21 +21,25 @@ body{
 .link{
 text-decoration: none;
 padding: 0.5rem 1rem;
-margin: 1rem;
-margin-bottom: 1rem;
+
 }
 .link-primary{ background-color: var(--primary-color);
 border-radius: 0.5rem;
-color: white
+color: white;
+text-decoration: none;
+ margin-left:39% ;
 }
 .link-primary:hover{
     background-color: black;
     color: white; 
+   
 }
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    text-decoration: none;
+   margin-left: 1rem;
 }
 .link-secondary:hover{
     background-color: black;
@@ -88,9 +92,6 @@ color: white
 .hero .hero-heading .heading-highlight{
     color: var(--primary-color);
 }
-.write-img{
-    display: block;
-}
 /* Section */
 .section{
     padding: 2rem;
@@ -98,6 +99,15 @@ color: white
 .section h1{
     text-align: center;
 }
+.section small{
+    margin-left: 46%;
+}
+.project-d{
+    text-align: center;
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
 .ow{
     background-color:var(--off-white) ;
 }
