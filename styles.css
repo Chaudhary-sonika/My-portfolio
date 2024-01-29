@@ -34,6 +34,18 @@ text-decoration: none;
     color: white; 
    
 }
+.htmlFileLink{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 45%;
+}
+.htmlFileLink:hover{
+    background-color: black;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 12px 12px;
+}
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
@@ -57,11 +69,13 @@ text-decoration: none;
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 0.3rem;
     border-bottom-left-radius: 1rem;
 }
 .navigation .nav-brand{
     font-weight: bold;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -83,6 +97,13 @@ text-decoration: none;
     max-width: 350px;
     display: block;
     margin: auto;
+}
+.heroMajorProject{
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 12px 12px;
 }
 .hero .hero-heading{
     text-align: center;
@@ -114,9 +135,9 @@ text-decoration: none;
 /* Footer */
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 0.5rem;
     text-align: center;
-    color:black;
+    color:white;
     border-top-right-radius: 1rem;
 }
 .footer .link {
